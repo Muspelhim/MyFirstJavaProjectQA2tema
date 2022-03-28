@@ -33,8 +33,8 @@ public class Main {
 //        System.out.println("Hello World");
     public static void main(String[] args) {
 
-        System.out.println("Hello");
-        System.out.println("Razvan");
+
+        System.out.println("Hello \n Razvan");
         int x = 2;
         int y = 4;
         int sum = x + y;
@@ -78,6 +78,26 @@ public class Main {
         System.out.println("Rezultatul este " + r2);
 
     }
+//public class Main2 {
+//
+//    public static void main(String[] args) {
+//
+//        double result = sum(2, 3);
+//        System.out.println(result * 2);
+//        System.out.println("Rezultatul este: " + sum(3, 5));
+//
+//    }
+//
+//    public static double sum(int firstNumber, double secondNumber) {
+//        double x = firstNumber + secondNumber;
+//        return x;
+//    }
+//
+//    public static void main(String[] args) {
+//
+//        printMyName();
+    }
 
 
-}
+
+
