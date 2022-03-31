@@ -31,13 +31,13 @@ public class Main2 {
 
         System.out.println("Divide: " + divide(45, 65.9));
 
-        System.out.println("Average: " + average(2,8,9));
+        System.out.println("Average: " + average(2, 8, 9));
 
-        System.out.println("Temperature: " + temperature(65,5,9));
+        System.out.println("Temperature: " + temperature(65, 5, 9));
 
         System.out.println("Distance: " + distance(100));
 
-        System.out.println("Speed: " + speed(1000,2300,500,60));
+        System.out.println("Speed: " + speed(1000, 2300, 500, 60));
 
         System.out.println(
                 "      J     a    V     V   a\n" +
@@ -57,7 +57,6 @@ public class Main2 {
     }
 
 
-
     public static long increase(long firstNumber, long secondNumber) {
         return firstNumber * secondNumber;
     }
@@ -67,21 +66,21 @@ public class Main2 {
     }
 
     public static float average(float firstNumber, float secondNumber, float thirdNumber) {
-        return (firstNumber+secondNumber+thirdNumber)/3;
+        return (firstNumber + secondNumber + thirdNumber) / 3;
     }
 
-    public static float  temperature(float firstNumber, float secondNumber, float thirdNumber) {
-        return ( secondNumber / thirdNumber * (firstNumber-32));
+    public static float temperature(float firstNumber, float secondNumber, float thirdNumber) {
+        return (secondNumber / thirdNumber * (firstNumber - 32));
     }
 
-    public static double  distance(double firstNumber) {
+    public static double distance(double firstNumber) {
         return (firstNumber / 39.37);
     }
 
-    public static double  speed(double firstNumber, double secondNumber, double thirdNumber , double forthNumber) {
+    public static double speed(double firstNumber, double secondNumber, double thirdNumber, double forthNumber) {
         return (firstNumber / secondNumber);
-        return ((0.001 * firstNumber) / thirdNumber);
-        return ((firstNumber / 1609) / forthNumber);
+//        return ((0.001 * firstNumber) / thirdNumber);
+//        return ((firstNumber / 1609) / forthNumber);
+//    }
     }
 }
-
