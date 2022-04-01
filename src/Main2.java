@@ -79,8 +79,8 @@ public class Main2 {
 
     public static double speed(double firstNumber, double secondNumber, double thirdNumber, double forthNumber) {
         return (firstNumber / secondNumber);
-//        return ((0.001 * firstNumber) / thirdNumber);
-//        return ((firstNumber / 1609) / forthNumber);
-//    }
+        return ((0.001 * firstNumber) / thirdNumber);
+        return ((firstNumber / 1609) / forthNumber);
+    }
     }
 }

@@ -12,19 +12,20 @@ public class Main3 {
 
         String text = "FastTrack";
         int number = 5;
-        int firstNumber = 5;
+//        int firstNumber = 5;
+//
+//
+//        System.out.println(verifyTextAndNumber(text, number));
+//
+//        System.out.println(checkBiggerNumber(5));
+//
+//        System.out.println(verifySnowAmmount(4));
 
-
-
-        System.out.println(verifyTextAndNumber(text,number));
-
-        System.out.println(checkBiggerNumber(5));
-
-        System.out.println(verifySnowAmmount(4));
-
-
-
-
+             Calculator calc = new Calculator();
+             System.out.println(calc.sum(2,3));
+             System.out.println(calc.substract(2,3));
+             LogicalOperations op = new LogicalOperations();
+             System.out.println(verifyTextAndNumber(text,number));
     }
 
 //    public static int getMax(int first, int second) {
@@ -52,23 +53,25 @@ public class Main3 {
             return "";
         }
     }
+
     public static int checkBiggerNumber(int number) {
-        if (number >= 2 && number <=8) {
-           return number;
+        if (number >= 2 && number <= 8) {
+            return number;
         } else {
-            return  0;
+            return 0;
         }
 
     }
 
-    public static int verifySnowAmmount(int firstNumber);{
+    public static int verifySnowAmmount(int firstNumber);
+
+    {
         int firstNumber = 4;
-        if(firstNumber>8 && firstNumber =6)
+        if (firstNumber > 8 && firstNumber = 6)
+
     }
 
-
-            }
-
+}
 
 
 
