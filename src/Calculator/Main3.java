@@ -6,20 +6,18 @@ public class Main3 {
     public static void main(String[] args) {
 
 
-//        System.out.println(getMax(12,41));
+        System.out.println(getMax(12,41));
 
-//        System.out.println(verifyTextFastTrack("FastTrack"));
+        System.out.println(verifyTextFastTrack("FastTrack"));
 
         String text = "FastTrack";
         int number = 5;
-//        int firstNumber = 5;
-//
-//
-//        System.out.println(verifyTextAndNumber(text, number));
-//
-//        System.out.println(checkBiggerNumber(5));
-//
-//        System.out.println(verifySnowAmmount(4));
+        int firstNumber = 5;
+
+
+        System.out.println(verifyTextAndNumber(text, number));
+
+        System.out.println(checkBiggerNumber(2,3));
 
              Calculator calc = new Calculator();
              System.out.println(calc.sum(2,3));
@@ -28,13 +26,21 @@ public class Main3 {
              System.out.println(verifyTextAndNumber(text,number));
     }
 
-//    public static int getMax(int first, int second) {
-//        if (first > second) {
-//            return first;
-//        } else {
-//            return second;
-//        }
-//    }
+    private static int checkBiggerNumber(int firstNumber, int secondNumber) {
+        if(firstNumber > secondNumber) {
+            return firstNumber;
+        } else {
+            return secondNumber;
+        }
+    }
+
+    public static int getMax(int first, int second) {
+        if (first > second) {
+            return first;
+        } else {
+            return second;
+        }
+    }
 
     public static String verifyTextFastTrack(String text) {
         if (text.equals("FastTrack")) {
@@ -54,22 +60,7 @@ public class Main3 {
         }
     }
 
-    public static int checkBiggerNumber(int number) {
-        if (number >= 2 && number <= 8) {
-            return number;
-        } else {
-            return 0;
-        }
 
-    }
-
-    public static int verifySnowAmmount(int firstNumber);
-
-    {
-        int firstNumber = 4;
-        if (firstNumber > 8 && firstNumber = 6)
-
-    }
 
 }
 

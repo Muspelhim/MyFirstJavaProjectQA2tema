@@ -28,4 +28,11 @@ public class LogicalOperations {
             return "";
         }
     }
+
+    public int checkBiggerNumber(int firstNumber, int secondNumber) {
+        if(firstNumber > secondNumber){
+            return firstNumber;
+    } else {
+            return secondNumber;
+        }
 }

@@ -1,3 +1,6 @@
 package AnimalRescuer;
 
-public class Veterinarian {}
+public class Veterinarian {
+    String name = "Severian";
+    String specialization = "Medicina";
+}

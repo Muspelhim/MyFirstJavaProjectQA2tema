@@ -3,12 +3,15 @@ package AnimalRescuer;
 public class Dog {
 
     String color = "yellow";
-    double weight = 20,3;
+    int weight = 20;
     int ageInMonths = 36;
     String ownerName = "Mirabela";
     String race = "Labrador";
     String name = "Constantin";
     boolean isMale = true;
+    String favoriteFood = "Pedigree";
+    String favoritePlaying = "Run";
+    int healthCondition =
 
     public void  eat(){
         System.out.println("Eating dog food");
