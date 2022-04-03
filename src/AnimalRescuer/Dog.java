@@ -11,7 +11,8 @@ public class Dog {
     boolean isMale = true;
     String favoriteFood = "Pedigree";
     String favoritePlaying = "Run";
-    int healthCondition =
+    int healthCondition = 8;
+    int hunger = 5;
 
     public void  eat(){
         System.out.println("Eating dog food");

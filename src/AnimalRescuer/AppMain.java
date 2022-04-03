@@ -8,7 +8,7 @@ public class AppMain {
         int x = 3;
         System.out.println(x);
         System.out.println("Varsta catelului este: " + constantin.ageInMonths);
-        System.out.println("Numele veterinarului este" + severian );
+        System.out.println("Numele veterinarului este" + severian.name );
 
         constantin.name = "TRex";
         constantin.race = "";
