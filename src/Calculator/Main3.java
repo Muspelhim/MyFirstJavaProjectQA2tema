@@ -1,37 +1,21 @@
-package Calculator;
-
-import java.sql.SQLOutput;
+package calculator;
 
 public class Main3 {
+
     public static void main(String[] args) {
 
 
-        System.out.println(getMax(12,41));
+//        System.out.println(getMax(12,41));
 
-        System.out.println(verifyTextFastTrack("FastTrack"));
+//        System.out.println(verifyTextFastTrack("FastTrack"));
+
 
         String text = "FastTrack";
-        int number = 5;
-        int firstNumber = 5;
+        int number = 6;
+
+        System.out.println(verifyTextAndNumber(text,number));
 
 
-        System.out.println(verifyTextAndNumber(text, number));
-
-        System.out.println(checkBiggerNumber(2,3));
-
-             Calculator calc = new Calculator();
-             System.out.println(calc.sum(2,3));
-             System.out.println(calc.substract(2,3));
-             LogicalOperations op = new LogicalOperations();
-             System.out.println(verifyTextAndNumber(text,number));
-    }
-
-    private static int checkBiggerNumber(int firstNumber, int secondNumber) {
-        if(firstNumber > secondNumber) {
-            return firstNumber;
-        } else {
-            return secondNumber;
-        }
     }
 
     public static int getMax(int first, int second) {
@@ -50,19 +34,13 @@ public class Main3 {
         }
     }
 
-    public static String verifyTextAndNumber(String text, int number) {
+    public static String verifyTextAndNumber(String text, int number){
         if (text.equals("FastTrack") && number <= 3) {
-            return text + number;
+            return  text + number;
         } else if (!text.equals("FastTrack") && number >= 4) {
             return number + text;
         } else {
             return "";
         }
     }
-
-
-
 }
-
-
-

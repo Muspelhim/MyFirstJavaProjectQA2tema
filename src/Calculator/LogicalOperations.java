@@ -1,5 +1,3 @@
-package Calculator;
-
 public class LogicalOperations {
 
 
@@ -36,3 +34,11 @@ public class LogicalOperations {
             return secondNumber;
         }
 }
+
+    public  String verifySnowAmmount (int number);
+     if ( number > 8 && number = 6) {
+        return "The ammount of snow this winter was(cm)" + number;
+         else {
+            return "The forecast snow is(cm)" + number
+        }
+    }
