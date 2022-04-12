@@ -1,5 +1,6 @@
-public class LogicalOperations {
+package calculator;
 
+public class LogicalOperations {
 
     public  int getMax(int first, int second) {
         if (first > second) {
@@ -27,18 +28,37 @@ public class LogicalOperations {
         }
     }
 
-    public int checkBiggerNumber(int firstNumber, int secondNumber) {
-        if(firstNumber > secondNumber){
-            return firstNumber;
-    } else {
-            return secondNumber;
-        }
-}
-
-    public  String verifySnowAmmount (int number);
-     if ( number > 8 && number = 6); {
-        return "The ammount of snow this winter was(cm)" + number;
-         else {
-            return "The forecast snow is(cm)" + number ;
+    public void countBackwards(int biggest, int smallest){
+        for (int i = biggest; i >= smallest; i--){
+            System.out.println(i);
         }
     }
+
+    public void printSumAndAverage(int from, int to){
+        int sum = 0;
+        for(int i = from; i <= to; i++){
+            sum = i + sum;
+        }
+        System.out.println(sum);
+        System.out.println(sum/(to-from+1f));
+    }
+    public double getAverageFrom7Numbers(int from, int to){
+        int x = from;
+        int sum = 0;
+        double counter = 0;
+        while(x <= to){
+            if(x % 7 == 0){
+                sum = x + sum;
+            }
+            x++;
+            counter++;
+
+        }
+        System.out.println(counter);
+        return sum/counter;
+    }
+}
+
+}
+
+

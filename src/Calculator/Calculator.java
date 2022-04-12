@@ -26,4 +26,6 @@ public class Calculator {
         return result;
     }
 
+    public int verifyNumberAndCount (int number)
+
 }
