@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Veterinarian {
+public class Veterinarian extends Human {
     private String name;
     private String specialization;
 

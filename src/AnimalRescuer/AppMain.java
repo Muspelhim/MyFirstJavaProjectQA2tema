@@ -17,6 +17,9 @@ public class AppMain {
 
         Dog const2 = new Dog();
         System.out.println(const2.name);
+        Cat mitzi = new Cat();
+        Girl andra = new Girl();
+        Veterinarian iustinian = new Veterinarian();
 
 
     }

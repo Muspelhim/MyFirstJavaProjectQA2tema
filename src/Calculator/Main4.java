@@ -6,7 +6,7 @@ public class Main4 {
         //Write a java program to count backwards from a given number to a lower given number
 //        int x = 9;
 //        int y = 3;
-        LogicalOperations logicalOperations = new LogicalOperations();
+        calculator.LogicalOperations logicalOperations = new calculator.LogicalOperations();
 //
 //        logicalOperations.countBackwards(100, y);
 //        System.out.println("After");

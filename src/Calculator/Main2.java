@@ -1,3 +1,5 @@
+package Calculator;
+
 public class Main2 {
     static int memberVariable = 3;
 

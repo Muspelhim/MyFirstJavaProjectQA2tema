@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Dog {
+public class Dog extends Animal{
 
      private String color;
    private int weight;
@@ -18,13 +18,13 @@ public class Dog {
         return this.color}
 
     public void setColor(String color){
-        this.color = color;
+        this.color = color}
     }
 
     public int getWeight() {
         return this.weight}
 
-    public void setWeight(String weight){
+    public void setWeight(int weight){
         this.weight = weight;
     }
 

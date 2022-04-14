@@ -78,7 +78,7 @@ public class Main {
         System.out.println("Rezultatul este " + r2);
 
     }
-//public class Main2 {
+//public class Calculator.Main2 {
 //
 //    public static void main(String[] args) {
 //

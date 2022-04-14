@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Girl {
+public class Girl extends Human {
     private String name;
     private double funds;
 
