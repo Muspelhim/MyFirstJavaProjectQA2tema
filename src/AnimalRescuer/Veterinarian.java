@@ -4,17 +4,21 @@ public class Veterinarian extends Human {
     private String name;
     private String specialization;
 
-    public String getName(){
-        return this.name}
+    public String getName() {
+        return name;
+    }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getSpecialization(){
-        return this.specialization}
+    public String getSpecialization() {
+        return specialization;
+    }
 
-    public void setSpecialization(String specialization){
+    public void setSpecialization(String specialization) {
         this.specialization = specialization;
     }
 }
+
+
