@@ -9,6 +9,57 @@ public class Animal {
     private boolean isMale;
     private String favouriteFood;
     private String favouritePlay;
+    private String sleep;
+    private String eat;
+    private String color;
+
+    public String getHunger() {
+        return hunger;
+    }
+
+    public void setHunger(String hunger) {
+        this.hunger = hunger;
+    }
+
+    private String hunger;
+
+    public String getHealthCondition() {
+        return healthCondition;
+    }
+
+    public void setHealthCondition(String healthCondition) {
+        this.healthCondition = healthCondition;
+    }
+
+    private String healthCondition;
+
+    public String getEat() {
+        return eat;
+    }
+
+    public void setEat(String eat) {
+        this.eat = eat;
+    }
+
+    public String getColour() {
+        return color;
+    }
+
+    public void setColour(String colour) {
+        this.color = colour;
+    }
+
+
+
+    public String getSleep() {
+        return sleep;
+    }
+
+    public void setSleep(String sleep) {
+        this.sleep = sleep;
+    }
+
+
 
     public String getName() {
         return name;

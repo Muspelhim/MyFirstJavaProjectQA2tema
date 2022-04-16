@@ -7,6 +7,40 @@ public class Human {
     private String hairColour;
     private int ageInYears;
     private String nationality;
+    private String gender;
+    private String name;
+    private Boolean isMale;
+
+    public Boolean getMale() {
+        return isMale;
+    }
+
+    public void setMale(Boolean male) {
+        isMale = male;
+    }
+
+   
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+
 
     public String getEyeColour() {
         return eyeColour;
@@ -57,4 +91,6 @@ public class Human {
     }
 
 
+    public void isMale(boolean b) {
+    }
 }
