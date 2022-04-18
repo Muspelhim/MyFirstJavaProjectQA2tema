@@ -12,6 +12,7 @@ public class Animal {
     private String sleep;
     private String eat;
     private String color;
+    private String hunger;
 
     public String getHunger() {
         return hunger;
@@ -21,7 +22,7 @@ public class Animal {
         this.hunger = hunger;
     }
 
-    private String hunger;
+
 
     public String getHealthCondition() {
         return healthCondition;

@@ -1,10 +1,20 @@
 package Calculator;
 
+import calculator.LogicalOperations;
+
 public class Main5 {
 
     public static void main(String[] args) {
-        calculator.LogicalOperations op = new calculator.LogicalOperations();
-        int[] myArray = op.populateArrayToNumber(100);
+
+       int[] myArray = new int[100];
+       for (int i = 0; i <100; i++){
+           myArray[i] = i + 1;
+       }
+       System.out.println(myArray);
+       for (int i = 0; i<myArray.length; i++){
+           System.out.println(myArray[i]+ ", ");
+       }
+
 
 //        op.printArray(myArray);
 
@@ -17,11 +27,19 @@ public class Main5 {
 //
 //        System.out.println(op.getAverageFromArray(myArray));
 //        System.out.println(op.getAverageFromArray(testArray));
+//
+//        int[] evenArray = new int[50];
+//        op.populateArrayEvenNumber(evenArray);
+//
+//
+//        op.printArray(evenArray);
 
-        int[] evenArray = new int[50];
-        op.populateArrayEvenNumber(evenArray);
 
 
-        op.printArray(evenArray);
+
+
+
+
+
     }
 }
