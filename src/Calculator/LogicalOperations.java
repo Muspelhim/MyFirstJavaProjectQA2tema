@@ -72,12 +72,6 @@ public class LogicalOperations {
         }
     }
 
-    private void printArray(int[] array) {
-        for (int i = 0; i< array.length; i++){
-            System.out.println(array[i]+ ", ");
-        }
-    }
-
     public double sumOfArray(int[] array){
         float sumArray = array[0];
         for (int i = 1; i < array.length; i++){
@@ -101,6 +95,19 @@ public class LogicalOperations {
 
     }
 
+    public void verifyArray(String[] array){
+         String red;
+         String blue;
+         String black;
+         String yellow;
+         String green;
+         String[] myArrayofStrings = new String[String];
 
     }
+
+
+    }
+
+
+
 
