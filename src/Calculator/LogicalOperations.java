@@ -97,30 +97,26 @@ public class LogicalOperations {
 
     }
 
-    public void verifyStringArray(String[] array){
-        String[] myArrayofStrings;
-        myArrayofStrings = new String[verifyStringArray()];
-         String red;
-         String blue;
-         String black;
-         String yellow;
-         String green;
+    public String verifyStringArray() {String text ;{
+    if (text.equals("red,blue,black,yellow,green")) {
+        return boolean (true ("Am aceasta culoare"));
+    } else {
 
-
-
+        return boolean (false ("Nu am aceasta culoare"));
     }
-
-    private String verifyStringArray() {String[] array){
 
        String stringArray[];
        stringArray = new String[6];
-       stringArray[1] = String red;
-       stringArray[2] = String blue;
-       stringArray[3] = String black;
-       stringArray[4] = String yellow;
-       stringArray[5] = String green;
+       stringArray[1] = this.red;
+       stringArray[2] = this.blue;
+       stringArray[3] = this.black;
+       stringArray[4] = this.yellow;
+       stringArray[5] = this.green;
+
+
 
 }
+
     }
     public String red;
     public String blue;
