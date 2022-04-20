@@ -1,5 +1,7 @@
 package calculator;
 
+import static java.awt.Color.red;
+
 public class LogicalOperations {
 
     public  int getMax(int first, int second) {
@@ -95,18 +97,38 @@ public class LogicalOperations {
 
     }
 
-    public void verifyArray(String[] array){
+    public void verifyStringArray(String[] array){
+        String[] myArrayofStrings;
+        myArrayofStrings = new String[verifyStringArray()];
          String red;
          String blue;
          String black;
          String yellow;
          String green;
-         String[] myArrayofStrings = new String[String];
+
+
 
     }
 
+    private String verifyStringArray() {String[] array){
 
+       String stringArray[];
+       stringArray = new String[6];
+       stringArray[1] = String red;
+       stringArray[2] = String blue;
+       stringArray[3] = String black;
+       stringArray[4] = String yellow;
+       stringArray[5] = String green;
+
+}
     }
+    public String red;
+    public String blue;
+    public String black;
+    public String yellow;
+    public String green;
+
+}
 
 
 
