@@ -119,6 +119,14 @@ public class LogicalOperations {
             System.out.println(x);
         }
     }
+
+    public void printListFromNumbers(List<Integer> list, int number){
+        for(int x = number; x < list.size(); x--){
+            System.out.println(list.get(x));
+
+        }
+    }
+
 }
 
 
