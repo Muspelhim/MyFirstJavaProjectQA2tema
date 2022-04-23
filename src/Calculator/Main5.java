@@ -1,6 +1,6 @@
 package Calculator;
 
-import calculator.LogicalOperations;
+import Calculator.LogicalOperations;
 
 public class Main5 {
 

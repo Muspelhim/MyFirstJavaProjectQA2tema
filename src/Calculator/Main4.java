@@ -1,4 +1,4 @@
-package calculator;
+package Calculator;
 
 public class Main4 {
 
@@ -6,7 +6,7 @@ public class Main4 {
         //Write a java program to count backwards from a given number to a lower given number
 //        int x = 9;
 //        int y = 3;
-        calculator.LogicalOperations logicalOperations = new calculator.LogicalOperations();
+        LogicalOperations logicalOperations = new LogicalOperations();
 //
 //        logicalOperations.countBackwards(100, y);
 //        System.out.println("After");

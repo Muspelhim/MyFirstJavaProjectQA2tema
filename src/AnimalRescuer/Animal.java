@@ -13,6 +13,17 @@ public class Animal {
     private String eat;
     private String color;
     private String hunger;
+    private String animalSound;
+
+
+
+
+
+    public String getAnimalSound() {return animalSound;}
+
+    public void setAnimalSound(String animalSound) {this.animalSound = animalSound;}
+
+
 
     public String getHunger() {
         return hunger;
@@ -116,6 +127,15 @@ public class Animal {
 
     public void setFavouritePlay(String favouritePlay) {
         this.favouritePlay = favouritePlay;
+    }
+    public void speak(){
+        System.out.println("sound");
+    }
+    public void play(){
+        System.out.println("Playing");
+    }
+    public void eat(){
+        System.out.println("eating");
     }
 
 }

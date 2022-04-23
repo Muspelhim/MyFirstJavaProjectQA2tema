@@ -4,6 +4,14 @@ public class Dog extends Animal{
 
 
    private String race;
+   private String bark;
+
+   public String getBark(){
+       return bark;
+   }
+   public void setBark(){
+       this.bark = bark;
+   }
 
 
     public String getRace() {
@@ -15,7 +23,10 @@ public class Dog extends Animal{
     }
 
 
-
-
-
+    public void speak() {
+        System.out.println("woof!");
+   }
+   public void eat(){
+       System.out.println("Eating dog food");
+   }
 }

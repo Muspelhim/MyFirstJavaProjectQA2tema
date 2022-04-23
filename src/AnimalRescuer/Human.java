@@ -93,4 +93,7 @@ public class Human {
 
     public void isMale(boolean b) {
     }
+    public void eat(){
+        System.out.println("Eating food");
+    }
 }

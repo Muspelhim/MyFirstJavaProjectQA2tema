@@ -3,27 +3,38 @@ package AnimalRescuer;
 public class AppMain {
 
     public static void main(String[] args) {
-        Veterinarian dan = new Veterinarian();
-        dan.isMale(true);
-        System.out.println();
 
 
+         Animal animal = new Animal();
+         animal.speak();
+         Dog dog = new Dog();
+         dog.speak();
+         Chihuahua chihuahua = new Chihuahua();
+         chihuahua.speak();
+         chihuahua.play();
 
-        Cat mitzi = new Cat();
-        mitzi.setMale(false);
-        System.out.println("Mitzi este fata");
+         Cat cat = new Cat();
+         cat.speak();
+         Munchkin munchkin = new Munchkin();
+         munchkin.speak();
+         munchkin.play();
 
-        Pony murgu = new Pony();
-        murgu.setMale(true);
-        System.out.println("Murgu e baiat");
+         Pony pony = new Pony();
+         pony.speak();
+         Fjord fjord = new Fjord();
+         fjord.speak();
+         fjord.play();
 
-        Mouse jerry = new Mouse();
-        jerry.setMale(true);
-        System.out.println("Jerry este baiat");
+         Veterinarian veterinarian = new Veterinarian();
+         veterinarian.eat();
+         veterinarian.speak();
 
-        Dog barky = new Dog();
-        barky.setColour("brown");
-        System.out.println("Culoare lui barky este brown");
+         Girl girl = new Girl();
+         girl.play();
+         girl.eat();
+         girl.speak();
+
+
 
 
 

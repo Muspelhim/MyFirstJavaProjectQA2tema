@@ -12,6 +12,12 @@ public class Veterinarian extends Human {
     public void setSpecialization() {
         this.specialization = "medicinaGenerala";
     }
+    public void eat(){
+        System.out.println("Eating Omelete");
+    }
+    public void speak(){
+        System.out.println("Hi patient");
+    }
 }
 
 

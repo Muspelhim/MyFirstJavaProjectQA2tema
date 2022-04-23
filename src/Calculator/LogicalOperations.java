@@ -1,4 +1,7 @@
-package calculator;
+package Calculator;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static java.awt.Color.red;
 
@@ -97,33 +100,25 @@ public class LogicalOperations {
 
     }
 
-    public String verifyStringArray() {String text ;{
-    if (text.equals("red,blue,black,yellow,green")) {
-        return boolean (true ("Am aceasta culoare"));
-    } else {
-
-        return boolean (false ("Nu am aceasta culoare"));
+    public List<Integer> getListToNumber(int number){
+        List<Integer> myList = new ArrayList<>();
+        for(int i = 0; i < number; i++){
+            myList.add(i+1);
+        }
+        return myList;
     }
 
-       String stringArray[];
-       stringArray = new String[6];
-       stringArray[1] = this.red;
-       stringArray[2] = this.blue;
-       stringArray[3] = this.black;
-       stringArray[4] = this.yellow;
-       stringArray[5] = this.green;
-
-
-
-}
-
+    public void printListFromNumber(List<Integer> list, int number){
+        for(int i = number; i < list.size(); i++){
+            System.out.println(list.get(i));
+        }
     }
-    public String red;
-    public String blue;
-    public String black;
-    public String yellow;
-    public String green;
 
+    public void printList(List<Integer> list){
+        for(Integer x:list){
+            System.out.println(x);
+        }
+    }
 }
 
 
