@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Dog extends Animal{
+public abstract class Dog extends Animal{
 
 
    private String race;
@@ -23,9 +23,7 @@ public class Dog extends Animal{
     }
 
 
-    public void speak() {
-        System.out.println("woof!");
-   }
+
    public void eat(){
        System.out.println("Eating dog food");
    }

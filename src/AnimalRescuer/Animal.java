@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Animal {
+public abstract class Animal {
 
     private String name;
     private String ownerName;
@@ -128,14 +128,8 @@ public class Animal {
     public void setFavouritePlay(String favouritePlay) {
         this.favouritePlay = favouritePlay;
     }
-    public void speak(){
-        System.out.println("sound");
-    }
-    public void play(){
-        System.out.println("Playing");
-    }
-    public void eat(){
-        System.out.println("eating");
-    }
+    public abstract void speak();
+    public abstract void play();
+    public abstract void eat();
 
 }

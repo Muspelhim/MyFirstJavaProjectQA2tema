@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Human {
+public abstract class Human {
     private String eyeColour;
     private float heightInCentimeters;
     private String race;

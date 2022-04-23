@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Pony extends Animal{
+public abstract class Pony extends Animal{
     public void speak(){
         System.out.println("Neee-haa!");
     }
