@@ -1,9 +1,8 @@
 package Calculator;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
-
-import static java.awt.Color.red;
 
 public class LogicalOperations {
 
@@ -98,6 +97,7 @@ public class LogicalOperations {
             }
         }
 
+
     }
 
     public List<Integer> getListToNumber(int number){
@@ -120,14 +120,20 @@ public class LogicalOperations {
         }
     }
 
-    public void printListFromNumbers(List<Integer> list, int number){
-        for(int x = number; x < list.size(); x--){
-            System.out.println(list.get(x));
+//    Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand, toate valorile din lista, dar invers(de la capat la inceput).
 
-        }
-    }
+     public List<Integer> myList2 (List<Integer> list) {
+         List<Integer> myList2 = new ArrayList<>();
+         myList2.add(0,1);
+         myList2.add(1,2);
+         myList2.add(2,3);
+         myList2.add(3,4);
+         myList2.add(4,5);
+         for (Integer x : myList2) {
 
-}
+         }
+         return (myList2.size() - 1)
+     }
 
 
 
