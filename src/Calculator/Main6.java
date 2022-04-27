@@ -18,17 +18,20 @@ public class Main6 {
 //
 //        logicalOperations.printList(integerList);
 //
-//        List<Integer> newList = new ArrayList<>();
-//        newList.add(1);
-//        newList.add(2);
-//        newList.add(3);
+        List<Integer> newList = new ArrayList<>();
+        newList.add(1);
+        newList.add(2);
+        newList.add(3);
 //        System.out.println(newList);
 //        newList.add(0, 16);
 //        System.out.println(newList);
 
-    logicalOperations.countBackwards(10,5);
 
+    logicalOperations.countBackwardsFromList(newList,3);
+        System.out.println(newList);
 
+        logicalOperations.showBiggestNumberFromList(newList);
+        System.out.println(newList);
 
 
 
@@ -43,4 +46,4 @@ public class Main6 {
 
     }
 
-}
+
